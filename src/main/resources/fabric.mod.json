@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-improvements-fabric",
+  "version": "${version}",
+  "name": "AI Improvements Fabric",
+  "description": "",
+  "authors": [
+    "PheonixVX",
+    "bl4ckscor3"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/AI-Improvements-Fabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.pheonixvx.aiimprovementsfabric.AIImprovementsFabric"
+    ]
+  },
+  "mixins": [
+    "AI-Improvements-Fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
