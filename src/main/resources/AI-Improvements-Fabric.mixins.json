@@ -9,7 +9,8 @@
     "InflateGoalAccessor",
     "LookControlMixin",
     "MobEntityMixin",
-    "SwimGoalAccessor"
+    "SwimGoalAccessor",
+    "ServerWorldMixin"
   ],
   "client": [
   ],
